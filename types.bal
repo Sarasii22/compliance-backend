@@ -8,3 +8,9 @@ public type ScanResponse record {
     Rule[] results;
     string[] alerts;
 };
+
+public type ContactRequest record {
+    string name;
+    string email;
+    string message;
+};
