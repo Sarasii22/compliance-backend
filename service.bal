@@ -2,16 +2,7 @@ import ballerina/http;
 import ballerina/log;
 
 // Define a record for the response structure (matches frontend JSON)
-type Rule record {
-    string rule;
-    string status;
-    string process;
-};
 
-type ScanResponse record {
-    Rule[] results;
-    string[] alerts;
-};
 
 // Hardcoded regulations data (same as frontend regulations.json)
 map<Rule[]> regulations = {
