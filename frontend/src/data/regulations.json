@@ -1,0 +1,38 @@
+{
+  "Singapore": [
+    {
+      "rule": "KYC verification within 24 hours",
+      "status": "Gap Detected",
+      "process": "Onboarding"
+    },
+    {
+      "rule": "AML transaction monitoring",
+      "status": "Compliant",
+      "process": "Transactions"
+    }
+  ],
+  "Sri Lanka": [
+    {
+      "rule": "Customer ID verification",
+      "status": "Compliant",
+      "process": "Onboarding"
+    },
+    {
+      "rule": "Suspicious activity reporting",
+      "status": "Gap Detected",
+      "process": "Transactions"
+    }
+  ],
+  "EU": [
+    {
+      "rule": "GDPR data consent",
+      "status": "Compliant",
+      "process": "Data Processing"
+    },
+    {
+      "rule": "Data breach notification",
+      "status": "Gap Detected",
+      "process": "Security"
+    }
+  ]
+}
